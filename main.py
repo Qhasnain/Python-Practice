@@ -11,7 +11,7 @@ gross=basic+da+hra
 itax=employe.ITAX(gross)
 net=gross-(pf+itax)
 
-print(f"Employee Name :{name}")
+print("Employee Name :",name)
 print(f"Basic Salary  :{basic}")
 print(f"DA(10%) :{da}")
 print(f"HRA(15%) :{hra}")
